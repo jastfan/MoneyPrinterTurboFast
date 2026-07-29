@@ -2,7 +2,7 @@
 
 # 🤖 AutoShortAi
 
-**Paste a video link. Get edited, HD-enhanced, ready-to-post vertical Shorts — cut, upscaled, voiced-over, and exported, all locally in your browser.**
+**Paste a video link. Get edited, HD-enhanced, get perfect title,description and other details with help of claude, using ai and face tracking to calculate accurate characters in video, ready-to-post vertical Shorts — cut, upscaled, voiced-over, and exported, all locally in your browser.**
 
 A local YouTube Shorts / Reels automation studio: powered by `yt-dlp` for fetching, `ffmpeg` for cutting and color, and AI face-restoration/upscaling (GFPGAN + Real-ESRGAN) for HD output — one Python script, no cloud, no subscription.
 
