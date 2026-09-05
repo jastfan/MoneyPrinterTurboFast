@@ -4,10 +4,10 @@
 ### The Ultimate 100% Local, Autonomous AI Content Creator Studio
 **Turn Long Videos into Viral Shorts, Reels & TikToks on Complete Autopilot — Zero Cloud Fees.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-brightgreen.svg)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](https://github.com/jastfan/MoneyPrinterTurboFast/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md)
 [![GitHub Stars](https://img.shields.io/github/stars/jastfan/MoneyPrinterTurboFast?style=social)](https://github.com/jastfan/MoneyPrinterTurboFast)
 
 <p align="center">
@@ -18,6 +18,19 @@
   <b>Dynamic Captions</b> • 
   <b>Multi-Platform Drip Publisher</b>
 </p>
+
+⭐ **If you find this project useful, please give it a Star! It helps the project grow.** ⭐
+
+---
+
+### 🔥 1. AI Auto-Split with Viral Retention Scoring (96/100)
+<img src="1-viral-shorts.jpg" width="950" alt="Generated Shorts with Viral Scores"/>
+
+<br><br>
+
+| 🎯 2. Face Reframe & Dynamic Captions | ⚡ 3. Multi-Format High-Res Fetcher |
+| :---: | :---: |
+| <img src="2-live-editor.jpg" width="460" alt="Face Reframe Editor with Captions"/> | <img src="3-stream-fetcher.jpg" width="460" alt="High Res Format Selection"/> |
 
 ---
 
@@ -76,3 +89,43 @@ All processing runs **100% locally on your machine**. Your footage is never uplo
 ```bash
 git clone https://github.com/jastfan/MoneyPrinterTurboFast.git
 cd MoneyPrinterTurboFast
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Setup Configuration
+```bash
+cp .env.example .env
+```
+*(Open `.env` to add your free Gemini API key, or keep defaults for local mode).*
+
+### 4. Launch the Studio
+```bash
+python app.py
+```
+Open your browser and navigate to: **`http://localhost:5000`**
+
+---
+
+## 💻 System Requirements
+
+- **Python**: 3.9, 3.10, or 3.11
+- **FFmpeg**: Bundled automatically via `imageio-ffmpeg` (no manual install needed)
+- **GPU (Recommended)**: NVIDIA GPU with CUDA for ultra-fast AI upscaling (CPU mode supported)
+- **Disk Space**: ~3GB for model weights (auto-downloaded on first run)
+
+---
+
+## 🤝 Contributing
+
+Contributions make the open-source community an amazing place to learn, inspire, and create.
+Please check our [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
