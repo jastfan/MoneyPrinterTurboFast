@@ -24,13 +24,13 @@
 ---
 
 ### 🔥 1. AI Auto-Split with Viral Retention Scoring (96/100)
-<img src="1-viral-shorts.jpg" width="950" alt="Generated Shorts with Viral Scores"/>
+<img src="upload/1-viral-shorts.jpg" width="950" alt="Generated Shorts with Viral Scores"/>
 
 <br><br>
 
 | 🎯 2. Face Reframe & Dynamic Captions | ⚡ 3. Multi-Format High-Res Fetcher |
 | :---: | :---: |
-| <img src="2-live-editor.jpg" width="460" alt="Face Reframe Editor with Captions"/> | <img src="3-stream-fetcher.jpg" width="460" alt="High Res Format Selection"/> |
+| <img src="upload/2-live-editor.jpg" width="460" alt="Face Reframe Editor with Captions"/> | <img src="upload/3-stream-fetcher.jpg" width="460" alt="High Res Format Selection"/> |
 
 ---
 
