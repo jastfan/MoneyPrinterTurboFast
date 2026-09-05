@@ -1,104 +1,78 @@
 <div align="center">
 
-# 🤖 AutoShortAi
+# ⚡ MoneyPrinterTurboFast v2.0
+### The Ultimate 100% Local, Autonomous AI Content Creator Studio
+**Turn Long Videos into Viral Shorts, Reels & TikToks on Complete Autopilot — Zero Cloud Fees.**
 
-**Paste a video link. Get edited, HD-enhanced, get perfect title,description and other details with help of claude, using ai and face tracking to calculate accurate characters in video, ready-to-post vertical Shorts — cut, upscaled, voiced-over, and exported, all locally in your browser.**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11-blue.svg)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-brightgreen.svg)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](https://github.com/jastfan/MoneyPrinterTurboFast/pulls)
+[![GitHub Stars](https://img.shields.io/github/stars/jastfan/MoneyPrinterTurboFast?style=social)](https://github.com/jastfan/MoneyPrinterTurboFast)
 
-A local YouTube Shorts / Reels automation studio: powered by `yt-dlp` for fetching, `ffmpeg` for cutting and color, and AI face-restoration/upscaling (GFPGAN + Real-ESRGAN) for HD output — one Python script, no cloud, no subscription.
-
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/flask-backend-black.svg)](https://flask.palletsprojects.com/)
-[![yt-dlp](https://img.shields.io/badge/powered%20by-yt--dlp-red.svg)](https://github.com/yt-dlp/yt-dlp)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
-[Features](#-features) • [Quick Start](#-quick-start) • [How It Works](#-how-it-works) • [Roadmap](#-roadmap) • [Contributing](#-contributing)
-
-<!-- Replace with a real 10-15s GIF of the editor in action -->
-![demo](assets/demo.gif)
-
-</div>
+<p align="center">
+  <b>Competitor Tracking (0 Quota)</b> • 
+  <b>AI Hook Detection</b> • 
+  <b>Face-Tracking Smart Reframe</b> • 
+  <b>GFPGAN + Real-ESRGAN HD</b> • 
+  <b>Dynamic Captions</b> • 
+  <b>Multi-Platform Drip Publisher</b>
+</p>
 
 ---
 
-## Why AutoShortAi?
+</div>
 
-Most "video to Shorts" tools either lock you into a paid SaaS, upload your footage to someone else's server, or hand you one flat auto-cut file with zero control. AutoShortAi is different:
+## 📌 What is MoneyPrinterTurboFast?
 
-- **100% local** — nothing you process leaves your machine. No account, no cloud storage, no subscription.
-- **One script, full pipeline** — fetch → cut → live-edit → AI-enhance → export, all in a single Flask app with a modern browser UI (no build step).
-- **Real editing, not just cutting** — per-clip speed, zoom, color grade, captions, logo, hide-regions, and AI voiceover before anything is written to disk.
-- **AI HD Enhance** — optional GFPGAN face-restoration + Real-ESRGAN upscaling pass so clips stay sharp instead of pixelating when zoomed or upscaled.
-- **Built on `yt-dlp`** — the same engine that powers most modern video-archival tools, so it isn't limited to a single site by design.
+**MoneyPrinterTurboFast** is a complete, self-hosted, all-in-one AI automation pipeline that monitors competitor YouTube channels, detects high-retention viral hooks, automatically reframes horizontal videos into 9:16 vertical Shorts using AI face tracking, enhances face quality with GFPGAN + Real-ESRGAN, overlays animated word-by-word captions, and drip-publishes them across **YouTube Shorts, Instagram Reels, TikTok, and X (Twitter)**.
 
-## ✨ Features
+All processing runs **100% locally on your machine**. Your footage is never uploaded to third-party cloud servers.
 
-- 🔗 Paste a video link → auto-resolves the best available video + audio quality
-- 🧠 Smart bot-detection bypass — tries cookies, browser sessions, and fallback clients automatically so fetches don't get blocked
-- ✂️ **Auto mode**: splits the full video into fixed-length vertical (9:16) shorts
-- 🎯 **Manual mode**: pick your own start/end ranges
-- ⚡ Parallel clip cutting — cuts don't wait on each other
-- 🖊️ Per-clip live editing: speed, zoom, mute/replace audio, text overlays, logo, blur/black/emoji hide-regions, rectangle/circle/arrow shapes
-- 🎨 One-click color presets (Vivid, Cinematic, Moody, Vintage VHS, Warm Glow, Cool Blue)
-- 🪄 **AI HD Enhance** — GFPGAN face restoration + Real-ESRGAN upscaling, denoise/detail pass (weights auto-download on first use)
-- 🗣️ AI voiceover: Edge TTS (Hindi/English, multiple voices) + gTTS fallback
-- 🎵 Drop-in background music library (`audio/` folder)
-- 💾 Smart export — stream-copies unedited clips instead of re-encoding for near-instant Save
-- 📥 Batch download manager for all exported clips
+---
 
-## 🚀 Quick Start
+## 💡 Why MoneyPrinterTurboFast? (Comparison)
 
+| Feature | SaaS Tools (OpusClip / Vizard) | Original MoneyPrinter | ⚡ MoneyPrinterTurboFast v2.0 |
+| :--- | :---: | :---: | :---: |
+| **Monthly Cost** | **$30 – $60 / month** | Free (OpenAI API fees) | **100% Free Forever ($0)** |
+| **Data Privacy** | Cloud servers (Uploaded) | Local | **100% Local & Private** |
+| **Competitor Monitoring** | ❌ No | ❌ No | **✅ 0-Quota RSS Feed Tracker** |
+| **AI Hook Detection** | Closed proprietary AI | ❌ No (manual timestamps) | **✅ Gemini Multi-Key Pool** |
+| **Speaker Face Reframe** | Basic crop | ❌ No | **✅ OpenCV DNN Face Tracking** |
+| **AI HD Restoration** | ❌ No | ❌ No | **✅ Real-ESRGAN + GFPGAN v1.4** |
+| **Subtitles / Captions** | Burned-in (watermarked) | Basic SRT | **✅ Dynamic TimedText Captions** |
+| **Direct Multi-Publishing** | Paid add-on | ❌ No | **✅ Automated Drip Scheduler** |
+
+---
+
+## 🛠️ Complete System Workflow
+
+1. **Competitor Tracker** (`creator_tracker.py`): Tracks competitor YouTube channels via free RSS feeds with 0 API quota consumed.
+2. **High-Res Downloader** (`downloader2.py`): Bypasses bot detection & extracts the best video and audio streams.
+3. **AI Viral Hook Finder** (`hook_detector2.py`): Analyzes transcripts with a Gemini multi-key pool to detect 90%+ retention hooks.
+4. **Face-Tracking Reframe** (`RenderDetect.py`): OpenCV Caffe DNN tracks active speakers and centers them in 9:16 vertical format.
+5. **AI HD Facial Restoration** (`ai_enhance.py`): GFPGAN v1.4 face restoration + Real-ESRGAN upscaling for crystal-clear 1080p/4K exports.
+6. **Word-Level Captions** (`word_captions.py`): Synced animated Alex Hormozi-style subtitles extracted from timedtext.
+7. **AI Metadata & SEO** (`claude_metadata.py`): Claude & Gemini generate viral, high-CTR titles, descriptions, and hashtags.
+8. **Drip-Publish Studio** (`publish_module.py`): Automated scheduling across YouTube Shorts, Reels, TikTok, and X.
+
+---
+
+## ✨ Core Features & Modules
+
+- 📡 **0-Quota Competitor Tracker**: Background monitor for new competitor drops with zero quota usage.
+- 🧠 **AI Hook Detection**: Auto-clips high-retention segments using an RPM-throttled Gemini key pool.
+- 🎯 **OpenCV Face Reframe**: Automatic vertical 9:16 crop that follows the active speaker.
+- 🪄 **AI HD Facial Restoration**: GFPGAN + Real-ESRGAN passes for sharp, non-pixelated exports.
+- 💬 **Dynamic Word Captions**: Bouncing subtitles synced perfectly with audio dialogue.
+- 📅 **Multi-Platform Auto-Scheduler**: Drip-schedule posts (e.g. 1 video every 4 hours) with OAuth integration.
+
+---
+
+## 🚀 Quick Start Guide
+
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/jastfan/AutoShortAi.git
-cd AutoShortAi
-pip install -r requirements.txt
-python autojob.py
-```
-
-The app opens automatically at `http://127.0.0.1:5789`.
-
-> **Tip:** drop `.mp3` files into `audio/` before launching to use them as background music inside the editor.
-> **Note on AI Enhance:** the first time you enable HD Enhance, it auto-downloads the GFPGAN and Real-ESRGAN model weights (one-time, a few hundred MB). This needs a working internet connection once; after that it runs fully offline.
-
-### Requirements
-- Python 3.9+
-- ffmpeg (bundled via `imageio-ffmpeg`, no separate install needed)
-- A modern browser (Chrome/Edge/Firefox)
-- ~2GB free disk space if you plan to use AI HD Enhance (model weights)
-
-## 🛠 How It Works
-
-1. **Resolve** — `yt-dlp` locates the best video/audio stream for the URL, with automatic cookie/session fallbacks if the first attempt is blocked.
-2. **Cut** — the video is split into short segments in parallel using fast preview-quality encodes.
-3. **Edit** — each clip opens in the browser UI for live-preview edits (nothing is re-encoded yet).
-4. **Enhance** *(optional)* — GFPGAN + Real-ESRGAN run a face-restoration/upscale pass on the clip.
-5. **Export** — on Save, edits are baked in; unedited clips are stream-copied for a near-instant export.
-
-## 🌍 Beyond YouTube
-
-Under the hood, AutoShortAi runs on `yt-dlp`, which supports 1,800+ sites — so pasting a link from Instagram, Facebook, or many other platforms will often work out of the box. The bot-detection bypass and cookie-fallback logic in this build are currently tuned specifically for YouTube; other platforms aren't yet tested to the same degree, and cookie handling for platform-locked content may need extra setup. Wider, tested multi-platform support is an active roadmap item — see below.
-
-## 🗺 Roadmap
-
-- [ ] Tested, documented Instagram + Facebook fetch flows
-- [ ] Local file upload (edit your own PC videos without a URL)
-- [ ] video2ppt-style module — extract slides/key-frames from lecture or webinar videos
-- [ ] One-click auto-captions (Whisper-based)
-- [ ] Docker image for one-command setup
-- [ ] Multi-language UI
-
-Have an idea? [Open an issue](https://github.com/jastfan/AutoShortAi/issues) or check [`good first issue`](https://github.com/jastfan/AutoShortAi/labels/good%20first%20issue) to contribute.
-
-## 🤝 Contributing
-
-Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Bug reports, feature ideas, and PRs all help.
-
-## 📄 License
-
-MIT — see [LICENSE](LICENSE).
-
----
-
-<div align="center">
-If this saved you time, a ⭐ on the repo helps others find it.
-</div>
+git clone https://github.com/jastfan/MoneyPrinterTurboFast.git
+cd MoneyPrinterTurboFast
