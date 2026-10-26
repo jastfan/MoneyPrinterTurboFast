@@ -3,7 +3,7 @@
 Thank you for considering contributing to **MoneyPrinterTurboFast**! 
 
 MoneyPrinterTurboFast is an open-source, local-first AI automation studio designed to turn long-form videos into high-retention vertical Shorts, Reels, and TikToks. The project is modular, easy to run, and requires zero paid SaaS subscriptions.
-
+  
 ---
 
 ### 🧭 Ways to Help
